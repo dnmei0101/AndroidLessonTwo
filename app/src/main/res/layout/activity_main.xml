@@ -194,5 +194,14 @@
 
         android:layout_below="@+id/button_minus"
         android:layout_toEndOf="@+id/button_nine"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_result"
+        android:layout_width="250sp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="="
 
+        android:layout_below="@+id/button_zero"
+        android:layout_alignStart="@+id/button_multi"/>
+    
 </RelativeLayout>
